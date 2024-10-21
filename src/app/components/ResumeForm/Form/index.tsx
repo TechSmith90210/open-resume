@@ -21,6 +21,7 @@ import {
   LightBulbIcon,
   WrenchIcon,
   PlusSmallIcon,
+  TrophyIcon
 } from "@heroicons/react/24/outline";
 import {
   addSectionInForm,
@@ -51,7 +52,7 @@ const FORM_TO_ICON: { [section in ShowForm]: typeof BuildingOfficeIcon } = {
   workExperiences: BuildingOfficeIcon,
   educations: AcademicCapIcon,
   projects: LightBulbIcon,
-  awards: WrenchIcon,
+  awards: TrophyIcon,
   skills: WrenchIcon,
   custom: WrenchIcon,
 };

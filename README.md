@@ -6,7 +6,7 @@ The goal of OpenResume is to provide everyone with free access to a modern profe
 
 Official site: [https://open-resume.com](https://open-resume.com)
 
-## ⚒️ Resume Builder
+## ⚒️ Disclaimer This Project Fork is our Recent Open Source Project
 
 OpenResume's resume builder allows user to create a modern professional resume easily.
 

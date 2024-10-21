@@ -32,7 +32,7 @@ The project is built using modern, widely accepted technologies such as **React*
 
 ### Awards and Honors Section (Added by [Aamena](https://github.com/Aamena990))
 - **Purpose**: To provide a customizable section where users can showcase their accolades and awards.
-- **How It Works**: Users can add categories, descriptions, and images or logos to highlight their achievements.
+- **How It Works**: Users can add categories, descriptions, and achievements to highlight their achievements.
 
 
 ## Contributors

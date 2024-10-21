@@ -18,14 +18,6 @@ The project is built using modern, widely accepted technologies such as **React*
 - **Purpose**: To allow users to export their resume or document in `.docx` format.
 - **How It Works**: By clicking the export button, the resume is formatted and saved as a `.docx` file using the `docx.js` library.
 
-### Dark and Light Mode (Added by [Rugba](https://github.com/rugbashaikh))
-- **Purpose**: To give users the flexibility to switch between light and dark themes for better accessibility.
-- **How It Works**: A simple toggle allows users to switch themes, with preferences saved in local storage for persistence across sessions.
-
-### Awards and Honors Section (Added by [Aamena](https://github.com/Aamena990))
-- **Purpose**: To provide a customizable section where users can showcase their accolades and awards.
-- **How It Works**: Users can add categories, descriptions, and images or logos to highlight their achievements.
-
 ### Custom Fonts and Theme Colors (Added by [Sahuf](https://github.com/sahuf2003))
 - **Purpose**: To enhance the visual appeal and readability of resumes.
 - **How It Works**: Integrated fonts such as **Helvetica** and **Garamond** were added, alongside a custom color palette to improve the overall user interface.
@@ -34,8 +26,16 @@ The project is built using modern, widely accepted technologies such as **React*
 - **Purpose**: To assist users by providing real-time suggestions and content generation for resume writing.
 - **How It Works**: The AI assistant, powered by Cohere AI, responds to user inputs and offers helpful suggestions for content improvement. Custom avatars make interactions visually clear.
 
+### Dark and Light Mode (Added by [Rugba](https://github.com/rugbashaikh))
+- **Purpose**: To give users the flexibility to switch between light and dark themes for better accessibility.
+- **How It Works**: A simple toggle allows users to switch themes, with preferences saved in local storage for persistence across sessions.
+
+### Awards and Honors Section (Added by [Aamena](https://github.com/Aamena990))
+- **Purpose**: To provide a customizable section where users can showcase their accolades and awards.
+- **How It Works**: Users can add categories, descriptions, and images or logos to highlight their achievements.
+
+
 ## Contributors
-## Creators
 
 <table align="center">
   <tr>

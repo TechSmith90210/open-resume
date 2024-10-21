@@ -1,71 +1,93 @@
-# OpenResume
+# OpenResume (Fork) - Recent Open Source Project
 
-OpenResume is a powerful open-source resume builder and resume parser.
+**Disclaimer**: This project is a fork of the original [OpenResume](https://github.com/xitanggg/open-resume) project. Developed as part of the **Recent Open Source Project** subject, we have enhanced the original version by adding several key features to improve functionality, user experience, and customization.
 
-The goal of OpenResume is to provide everyone with free access to a modern professional resume design and enable anyone to apply for jobs with confidence.
+## Why We Chose This Project
 
-Official site: [https://open-resume.com](https://open-resume.com)
+In today’s competitive job market, having a well-crafted resume that adheres to industry standards is critical. Many resume-building tools are either costly or don’t provide essential features such as privacy, ATS (Applicant Tracking System) compatibility, and ease of use. We selected **OpenResume** for our course project because it is an open-source solution that allows us to enhance its features while contributing to the larger developer community.
 
-## ⚒️ Disclaimer This Project Fork is our Recent Open Source Project
+The project is built using modern, widely accepted technologies such as **React**, **TypeScript**, and **Tailwind CSS**. This made it an ideal platform for us to implement additional features that improve user control over their resume-building process, all while maintaining simplicity, privacy, and ATS compliance.
 
-OpenResume's resume builder allows user to create a modern professional resume easily.
+## Features Added in This Fork
 
-![Resume Builder Demo](https://i.ibb.co/jzcrrt8/resume-builder-demo-optimize.gif)
+### Word Limit Feature (Added by [Salman](https://github.com/TechSmith90210))
+- **Purpose**: To help users stay within predefined content limits, which is crucial for structured inputs like essays or applications.
+- **How It Works**: A dynamic word counter updates in real-time, helping users stay within the word limit. This feature is customizable for different content types.
 
-It has 5 Core Features:
-| <div style="width:285px">**Feature**</div> | **Description** |
-|---|---|
-| **1. Real Time UI Update** | The resume PDF is updated in real time as you enter your resume information, so you can easily see the final output. |
-| **2. Modern Professional Resume Design** | The resume PDF is a modern professional design that adheres to U.S. best practices and is ATS friendly to top ATS platforms such as Greenhouse and Lever. It automatically formats fonts, sizes, margins, bullet points to ensure consistency and avoid human errors. |
-| **3. Privacy Focus** | The app only runs locally on your browser, meaning no sign up is required and no data ever leaves your browser, so it gives you peace of mind on your personal data. (Fun fact: Running only locally means the app still works even if you disconnect the internet.) |
-| **4. Import From Existing Resume PDF** | If you already have an existing resume PDF, you have the option to import it directly, so you can update your resume design to a modern professional design in literally a few seconds. |
-| **5. Successful Track Record** | OpenResume users have landed interviews and offers from top companies, such as Dropbox, Google, Meta to name a few. It has been proven to work and liken by recruiters and hiring managers. |
+### Export to Docx (Added by [Salman](https://github.com/TechSmith90210))
+- **Purpose**: To allow users to export their resume or document in `.docx` format.
+- **How It Works**: By clicking the export button, the resume is formatted and saved as a `.docx` file using the `docx.js` library.
 
-## 🔍 Resume Parser
+### Dark and Light Mode (Added by [Rugba](https://github.com/rugbashaikh))
+- **Purpose**: To give users the flexibility to switch between light and dark themes for better accessibility.
+- **How It Works**: A simple toggle allows users to switch themes, with preferences saved in local storage for persistence across sessions.
 
-OpenResume’s second component is the resume parser. For those who have an existing resume, the resume parser can help test and confirm its ATS readability.
+### Awards and Honors Section (Added by [Aamena](https://github.com/Aamena990))
+- **Purpose**: To provide a customizable section where users can showcase their accolades and awards.
+- **How It Works**: Users can add categories, descriptions, and images or logos to highlight their achievements.
 
-![Resume Parser Demo](https://i.ibb.co/JvSVwNk/resume-parser-demo-optimize.gif)
+### Custom Fonts and Theme Colors (Added by [Sahuf](https://github.com/sahuf2003))
+- **Purpose**: To enhance the visual appeal and readability of resumes.
+- **How It Works**: Integrated fonts such as **Helvetica** and **Garamond** were added, alongside a custom color palette to improve the overall user interface.
 
-You can learn more about the resume parser algorithm in the ["Resume Parser Algorithm Deep Dive" section](https://open-resume.com/resume-parser).
+### AI Assistant (Added by [Sahuf](https://github.com/sahuf2003))
+- **Purpose**: To assist users by providing real-time suggestions and content generation for resume writing.
+- **How It Works**: The AI assistant, powered by Cohere AI, responds to user inputs and offers helpful suggestions for content improvement. Custom avatars make interactions visually clear.
 
-## 📚 Tech Stack
+## Contributors
+## Creators
 
-| <div style="width:140px">**Category**</div> | <div style="width:100px">**Choice**</div> | **Descriptions** |
-|---|---|---|
-| **Language** | [TypeScript](https://github.com/microsoft/TypeScript) | TypeScript is JavaScript with static type checking and helps catch many silly bugs at code time. |
-| **UI Library** | [React](https://github.com/facebook/react) | React’s declarative syntax and component-based architecture make it simple to develop reactive reusable components. |
-| **State Management** | [Redux Toolkit](https://github.com/reduxjs/redux-toolkit) | Redux toolkit reduces the boilerplate to set up and update a central redux store, which is used in managing the complex resume state. |
-| **CSS Framework** | [Tailwind CSS](https://github.com/tailwindlabs/tailwindcss) | Tailwind speeds up development by providing helpful css utilities and removing the need to context switch between tsx and css files. |
-| **Web Framework** | [NextJS 13](https://github.com/vercel/next.js) | Next.js supports static site generation and helps build efficient React webpages that support SEO. |
-| **PDF Reader** | [PDF.js](https://github.com/mozilla/pdf.js) | PDF.js reads content from PDF files and is used by the resume parser at its first step to read a resume PDF’s content. |
-| **PDF Renderer** | [React-pdf](https://github.com/diegomura/react-pdf) | React-pdf creates PDF files and is used by the resume builder to create a downloadable PDF file. |
+<table align="center">
+  <tr>
+        <td align="center">
+      <a href="https://github.com/TechSmith90210" target="_black">
+        <img src="https://github.com/TechSmith90210.png" width="150px;" alt="Salman Shaikh"/>
+        <br />
+        <sub><b>Salman Shaikh</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/sahuf2003" target="_black">
+        <img src="https://github.com/sahuf2003.png" width="150px;" alt="Sahuf Shaikh"/>
+        <br />
+        <sub><b>Sahuf Shaikh</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/rugbashaikh" target="_black">
+        <img src="https://github.com/rugbashaikh.png" width="150px;" alt="Rugba Shaikh"/>
+        <br />
+        <sub><b>Rugba Shaikh</b></sub>
+      </a>
+    </td>    
+    <td align="center">
+      <a href="https://github.com/Aamena990" target="_black">
+        <img src="https://github.com/Aamena990.png" width="150px;" alt="Aamena Shaikh"/>
+        <br />
+        <sub><b>Aamena Shaikh</b></sub>
+      </a>
+    </td>
+  </tr>
+</table>
 
-## 📁 Project Structure
 
-OpenResume is created with the NextJS web framework and follows its project structure. The source code can be found in `src/app`. There are a total of 4 page routes as shown in the table below. (Code path is relative to `src/app`)
+## How to Use
 
-| <div style="width:115px">**Page Route**</div> | **Code Path** | **Description** |
-|---|---|---|
-| / | /page.tsx | Home page that contains hero, auto typing resume, steps, testimonials, logo cloud, etc |
-| /resume-import | /resume-import/page.tsx | Resume import page, where you can choose to import data from an existing resume PDF. The main component used is `ResumeDropzone` (`/components/ResumeDropzone.tsx`) |
-| /resume-builder | /resume-builder/page.tsx | Resume builder page to build and download a resume PDF. The main components used are `ResumeForm` (`/components/ResumeForm`) and `Resume` (`/components/Resume`) |
-| /resume-parser | /resume-parser/page.tsx | Resume parser page to test a resume’s AST readability. The main library util used is `parseResumeFromPdf` (`/lib/parse-resume-from-pdf`) |
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/your-repo/openresume.git
+    ```
+2. Navigate to the project directory and install dependencies:
+    ```bash
+    cd openresume
+    npm install
+    ```
+3. Start the development server:
+    ```bash
+    npm run dev
+    ```
+4. Open your browser and visit `http://localhost:3000` to start building your resume using these enhanced features.
 
-## 💻 Local Development
+## License
 
-### Method 1: npm
-
-1. Download the repo `git clone https://github.com/xitanggg/open-resume.git`
-2. Change the directory `cd open-resume`
-3. Install the dependency `npm install`
-4. Start a development server `npm run dev`
-5. Open your browser and visit [http://localhost:3000](http://localhost:3000) to see OpenResume live
-
-### Method 2: Docker
-
-1. Download the repo `git clone https://github.com/xitanggg/open-resume.git`
-2. Change the directory `cd open-resume`
-3. Build the container `docker build -t open-resume .`
-4. Start the container `docker run -p 3000:3000 open-resume`
-5. Open your browser and visit [http://localhost:3000](http://localhost:3000) to see OpenResume live
+This project is licensed under the MIT License.
